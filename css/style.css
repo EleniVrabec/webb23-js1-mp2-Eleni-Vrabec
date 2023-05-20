@@ -207,7 +207,7 @@ img {
     padding-left: 1%;
     padding-right: 1%;
     width: 60vw;
-    height: 110vh;
+    height: 100vh;
     border: 1px solid white;
     border-radius: 10px;
     background-color: #7660abed;
@@ -269,7 +269,7 @@ img {
   #pick-1,
   #pick-2 {
     width: 50%;
-    height: 30vh;
+    height: 17vh;
     border: 1px solid rgb(158, 157, 157);
     border-radius: 10px;
     margin: 1%;

@@ -95,8 +95,8 @@ function playGame(playerChoice) {
   const choices = ["rock", "paper", "scissors"];
   const computerChoiceIndex = Math.floor(Math.random() * choices.length);
   const computerChoice = choices[computerChoiceIndex];
-  let imgPl1 = `<img src="img/${playerChoice}.png" style="width: 200px; height:200px">`;
-  let imgPl2 = `<img src="img/${computerChoice}.png" style="width: 200px; height:200px">`;
+  let imgPl1 = `<img src="img/${playerChoice}.png"   style="width: 15vw; height:auto; display:grid; place-items:center; ">`;
+  let imgPl2 = `<img src="img/${computerChoice}.png" style="width: 15vw; height:auto; display:grid; place-items:center; ">`;
   imgContainerPl1.innerHTML = imgPl1;
   imgContainerPl2.innerHTML = imgPl2;
   playBtn.innerText = "Play again";
